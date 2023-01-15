@@ -173,6 +173,8 @@ p {
 .love-enjoy-info h2 {
     font-size: 45px;
     font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 10px;
 }
 
 .fr-love-enjoy-sub-info {
@@ -302,6 +304,116 @@ p {
 .footer-text {
     padding: 30px 0;
     font-weight: 400;
-    font-size: 20px; 
+    font-size: 20px;
     color: #424242;
+}
+
+
+/*/////// responsives styles ////////*/
+
+@media screen and (max-width:876px) {
+
+    nav,
+    .banner,
+    .container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 25px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        padding-left: 25px;
+    }
+
+    nav li {
+        margin-left: 0;
+    }
+
+    .header {
+        background-image: none;
+    }
+
+    .banner-img, .love-enjoy {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .banner-img img {
+        width: 300px;
+        height: 200px;
+    }
+    .container-info {
+        padding-top: 50px;
+        padding-left: 0px;
+        flex-direction: column;
+    }
+    .container-img {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;}
+
+.container-sub-info {
+  
+    flex-direction: column;
+    justify-content: center;
+    margin: 200px 0px;
+    width: 200px;
+    height:150px;
+}
+ 
+.love-enjoy-info h2{
+    font-size: 30px;
+}
+.fr-love-enjoy-sub-info {
+    flex-direction: column;
+    gap: 70px;
+    width: 324px;
+    font-size: 10px;}
+
+    .love-enjoy-img {
+        width: 300px;
+    }
+    .button{
+       display: none;
+    }
+    .facts-list  {
+        gap: 40px;
+        flex-direction: column;
+        margin-top: 300px;
+    }
+    .sponsers h2 {
+        font-size: 35px;
+       text-align: left;
+        margin-top: 80px}
+        .sponsers p {
+            font-weight: 15px;
+            height: 150px;
+            width: 300px;
+            text-align: left;
+            margin-left: 10px;
+        }
+    .facts-list, .sponsers-list {
+        width: 100px;
+        height: 100px;
+        gap: 40px;
+        flex-direction: column;
+        margin-bottom: 150px;
+    }
+    .extra {
+        text-align: left;
+        height: 150px;
+        width: 300px;
+        margin-bottom: 200px;
+        /* display: none */
+    }
+        .footer {
+          width: 345px;
+          height: 30px;
+        }
+        .footer-text {
+            text-align: center;
+            font-size: 8px;
+            padding: 0px;
+        }
 }
