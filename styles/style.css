@@ -234,6 +234,10 @@ p {
     gap: 80px;
 }
 
+.fact:hover{
+    background-color: #FF900E;
+}
+
 .fact {
     width: 150px;
     height: 150px;
@@ -386,6 +390,7 @@ p {
         font-size: 35px;
        text-align: left;
         margin-top: 80px}
+        
         .sponsers p {
             font-weight: 15px;
             height: 150px;
