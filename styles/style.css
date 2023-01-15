@@ -277,3 +277,31 @@ p {
     display: flex;
     justify-content: space-evenly;
 }
+
+
+/* Extra section styles */
+.extra {
+    text-align: center;
+}
+
+.about-us {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-top: 170px;
+}
+
+/* footer section styles */
+.footer {
+    text-align: center;
+    align-items: center;
+    margin-top: 130px;
+    background: #FFF4E7;
+}
+
+.footer-text {
+    padding: 30px 0;
+    font-weight: 400;
+    font-size: 20px; 
+    color: #424242;
+}
