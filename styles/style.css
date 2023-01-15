@@ -5,10 +5,13 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
-    background: rgba(255, 144, 14, 0.1);
 }
 
 /* nav styles */
+.header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -22,7 +25,6 @@ nav {
 
 nav>ul {
     font-size: 18px;
-    font-style: normal;
     font-weight: 500;
     color: #424242;
     display: flex;
@@ -31,11 +33,10 @@ nav>ul {
 }
 
 /* banner section  */
-.banner-info{
+.banner-info {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .banner-title {
@@ -46,14 +47,15 @@ nav>ul {
 }
 
 .banner-description {
-    
     font-weight: 400;
     font-size: 16px;
+    line-height: 25px;
     text-align: center;
-    margin: 30px 300px ;
+    margin: 32px 300px;
     color: #727272;
 }
-.primary-button{
+
+.primary-button {
     font-weight: 600;
     font-size: 20px;
     text-align: center;
@@ -62,21 +64,73 @@ nav>ul {
     width: 180px;
     height: 64px;
     color: #FFFFFF;
-    background: #7420dc;
+    background: #FF900E;
     border-radius: 5px;
     align-items: center;
-    margin-top: 15px;
+
 }
 
 .banner-img {
     display: flex;
-    justify-content: center;  
+    justify-content: center;
 }
-
 
 .banner-img img {
     width: 1110px;
     height: 550px;
     border-radius: 8px;
     margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+/* Features styles */
+.container-info {
+    padding-top: 50px;
+    padding-left: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.container-img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.container-sub-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 200px;
+}
+
+.span-1 {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.span-2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.span-3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+p{
+    margin-top: 25px;
+    margin-bottom: 32px;
+    line-height: 25px;
 }
